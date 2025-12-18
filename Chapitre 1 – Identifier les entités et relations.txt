@@ -1,0 +1,44 @@
+L'essentiel de ce chapitre est de comprendre les concepts (D'Entités, D'Attributs, de Relations et de Cardinalités).
+
+Entités :
+
+Elles sont comparables à des tables et sont indispensables au stockage des données dans la base de données.
+
+Exemples d'entités : Utilisateur, Article, Commentaire
+
+
+
+
+Attributs :
+
+Ce sont les données qui décrivent une entité. Par exemple :
+
+« Utilisateur » possède : un identifiant, une adresse e-mail, un profil…
+
+« Article » possède : un identifiant, un contenu, une description…
+
+« Commentaire » possède également : un identifiant, un texte, une date de publication…
+
+
+
+
+Relation :
+
+Comme son nom l'indique, une relation désigne le lien entre des entités. Par exemple :
+
+Un utilisateur écrit des articles.
+
+Un article a des commentaires.
+
+
+
+
+Cardinalités :
+
+Les cardinalités déterminent le nombre d'éléments pouvant être liés. Par exemple :
+
+1-1 signifie qu'un élément est lié à un seul autre élément.
+
+1-N signifie qu'un élément peut avoir plusieurs éléments.
+
+N-N signifie que plusieurs éléments sont liés à plusieurs autres éléments.
